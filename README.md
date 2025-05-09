@@ -31,7 +31,7 @@ pip install yt-dlp langchain-google-genai python-dotenv
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/atishaydeveloper/Youttube_Videos_to_Notes.git
+git clone https://github.com/atishaydeveloper/Youtube_Videos_to_Notes.git
 cd youtube-transcript-summarizer
 ```
 ## 🤖 Models Used
