@@ -14,5 +14,37 @@ A Python tool that downloads YouTube video transcripts, processes and summarizes
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Requirements
+
+- Python 3.9+
+- [`yt-dlp`](https://github.com/yt-dlp/yt-dlp)
+- [`ollama`](https://ollama.com/) (installed and model pulled, e.g., `deepseek-r1`)
+- Gemini API Key (via [Google AI Studio](https://aistudio.google.com/app/apikey))
+
+Install Python dependencies:
+```bash
+pip install yt-dlp langchain-google-genai python-dotenv
+```
+
+# 📦 Installation & Setup
+
+### Clone the repository:
+
+```bash
+git clone https://github.com/atishaydeveloper/Youttube_Videos_to_Notes.git
+cd youtube-transcript-summarizer
+```
+## 🤖 Models Used
+
+- **Ollama**: Local LLM (e.g., DeepSeek, Mistral, etc.) for summarization
+- **Gemini**: Google’s powerful generative model for final notes formatting
+
+---
+
+## 🧠 Use Cases
+
+- Quick learning from long educational videos
+- Making structured revision notes
+- Distilling online courses or tech talks
+- Preparing summaries of tutorials
 
