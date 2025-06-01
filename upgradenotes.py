@@ -282,7 +282,7 @@ env_gemini_key = os.getenv("GOOGLE_API_KEY", "")
 gemini_api_key = st.sidebar.text_input(
     "Enter your Google Gemini API Key:",
     type="password",
-    value=env_gemini_key,
+    value="Add key",
     help="Get yours from Google AI Studio. Can be pre-filled from .env (GOOGLE_API_KEY)."
 )
 
